@@ -1,0 +1,28 @@
+{
+ "generated": "2026-09-09T20:08:35.500610+09:00",
+ "source": "https://review.kimwon.com",
+ "count": 1,
+ "tools": [
+  {
+   "key": "bzip3",
+   "name": "bzip3",
+   "one_liner": "bzip2를 잇는 블록 정렬 기반 고압축률 명령줄 압축기",
+   "install": "brew install bzip3",
+   "category": "cli",
+   "homepage": "https://github.com/iczelia/bzip3",
+   "repo": "iczelia/bzip3",
+   "license": "LGPL-3.0",
+   "stars": 1495,
+   "lang": "C",
+   "post_url": "https://review.kimwon.com/bzip3-what-it-is-and-who-its-for/",
+   "post_title": "bzip3, 무엇이고 누구에게 맞나",
+   "post_date": "2026-09-09",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/iczelia/bzip3/HEAD/README.md",
+    "https://formulae.brew.sh/formula/bzip3"
+   ],
+   "done_link": "https://review.kimwon.com/?p=148"
+  }
+ ]
+}
