@@ -4,19 +4,40 @@
 
 직접 설치해 실행한 기록(Debian 12 LXC 샌드박스)을 바탕으로 만든 표입니다. 각 행의 **심화 글**에 설치 과정·첫 화면·실제 출력이 있습니다. 기계 판독용 데이터는 [`data/tools.json`](data/tools.json).
 
-갱신 2026-09-09 · 도구 1개 · 라이선스 [CC BY 4.0](LICENSE)
+갱신 2026-09-14 · 도구 5개 · 라이선스 [CC BY 4.0](LICENSE)
 
 ## 전체 표
 
 | 도구 | 무엇 | 설치 한 줄 | 라이선스 | 심화 글 |
 |---|---|---|---|---|
 | [bzip3](https://github.com/iczelia/bzip3) | bzip2를 잇는 블록 정렬 기반 고압축률 명령줄 압축기 | `brew install bzip3` | LGPL-3.0 | [bzip3, 무엇이고 누구에게 맞나](https://review.kimwon.com/bzip3-what-it-is-and-who-its-for/) |
+| [fnprint](https://github.com/1rhino2/fnprint) | 심볼 없는 x86-64 ELF 함수를 동작 기반으로 식별하는 도구 | `git clone https://github.com/1rhino2/fnprint && cd fnprint && cargo build --release` | MIT | [fnprint, 동작으로 함수를 찾아내는 도구](https://review.kimwon.com/fnprint-%eb%b0%94%ec%9d%b4%eb%84%88%eb%a6%ac-%eb%b6%84%ec%84%9d/) |
+| [skills](https://skills.sh) | GitHub 저장소의 에이전트 스킬을 코딩 에이전트에 설치·관리하는 CLI | `npx skills add <owner/repo>` | MIT | [skills 사용법: 설치부터 첫 스킬 적용까지](https://review.kimwon.com/skills-cli-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
+| [trynix](https://github.com/marketplace/actions) | 브라우저 탭에서 nixpkgs 패키지를 설치 없이 바로 실행하는 웹 도구 | — | MIT | [trynix 사용법, 브라우저 탭에서 패키지 바로 실행](https://review.kimwon.com/trynix-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
+| [unslop](https://github.com/theclaymethod/unslop) | AI 글투를 줄 단위로 찾아내는 파이썬 글쓰기 검사 도구 | `git clone https://github.com/theclaymethod/unslop` | — | [unslop 사용법: 설치부터 첫 검사까지](https://review.kimwon.com/unslop-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 
 ## CLI·터미널
 
 - **bzip3** — bzip2를 잇는 블록 정렬 기반 고압축률 명령줄 압축기 (C · ★ 1,495 · [GitHub](https://github.com/iczelia/bzip3))  
   `brew install bzip3`  
   심화 글: [bzip3, 무엇이고 누구에게 맞나](https://review.kimwon.com/bzip3-what-it-is-and-who-its-for/) · 2026-09-09
+
+## 개발 도구
+
+- **fnprint** — 심볼 없는 x86-64 ELF 함수를 동작 기반으로 식별하는 도구 (Rust · ★ 44 · [GitHub](https://github.com/1rhino2/fnprint))  
+  `git clone https://github.com/1rhino2/fnprint && cd fnprint && cargo build --release`  
+  심화 글: [fnprint, 동작으로 함수를 찾아내는 도구](https://review.kimwon.com/fnprint-%eb%b0%94%ec%9d%b4%eb%84%88%eb%a6%ac-%eb%b6%84%ec%84%9d/) · 2026-09-09
+- **trynix** — 브라우저 탭에서 nixpkgs 패키지를 설치 없이 바로 실행하는 웹 도구 ([GitHub](https://github.com/marketplace/actions))  
+  심화 글: [trynix 사용법, 브라우저 탭에서 패키지 바로 실행](https://review.kimwon.com/trynix-%ec%82%ac%ec%9a%a9%eb%b2%95/) · 2026-09-13
+
+## AI·LLM
+
+- **skills** — GitHub 저장소의 에이전트 스킬을 코딩 에이전트에 설치·관리하는 CLI  
+  `npx skills add <owner/repo>`  
+  심화 글: [skills 사용법: 설치부터 첫 스킬 적용까지](https://review.kimwon.com/skills-cli-%ec%82%ac%ec%9a%a9%eb%b2%95/) · 2026-09-11
+- **unslop** — AI 글투를 줄 단위로 찾아내는 파이썬 글쓰기 검사 도구 (Python · ★ 411 · [GitHub](https://github.com/theclaymethod/unslop))  
+  `git clone https://github.com/theclaymethod/unslop`  
+  심화 글: [unslop 사용법: 설치부터 첫 검사까지](https://review.kimwon.com/unslop-%ec%82%ac%ec%9a%a9%eb%b2%95/) · 2026-09-12
 
 ## 출처·원칙
 
