@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-14T10:00:25.830136+09:00",
+ "generated": "2026-09-21T10:00:18.196530+09:00",
  "source": "https://review.kimwon.com",
- "count": 5,
+ "count": 10,
  "tools": [
   {
    "key": "bzip3",
@@ -25,6 +25,50 @@
    "done_link": "https://review.kimwon.com/?p=148"
   },
   {
+   "key": "cloudflare-quick-tunnels",
+   "name": "Cloudflare Quick Tunnels",
+   "one_liner": "계정도 포트 개방도 없이, 명령 한 줄로 내 컴퓨터의 개발 서버에 공개 HTTPS 주소를 붙이는 방법.",
+   "install": "",
+   "category": "etc",
+   "homepage": "https://github.com/randyburden/cbda4da88bc4e6cd9e17d59ecf03dcf9",
+   "repo": "randyburden/cbda4da88bc4e6cd9e17d59ecf03dcf9",
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/cloudflare-quick-tunnels-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "Quick Tunnels 사용법, 로컬을 공개 URL로",
+   "done_link": "https://review.kimwon.com/?p=233",
+   "post_date": "2026-09-19",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://gist.github.com/randyburden/cbda4da88bc4e6cd9e17d59ecf03dcf9",
+    "https://cloudflare-docs.justalittlebyte.ovh/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/",
+    "http://try.cloudflare.com/"
+   ]
+  },
+  {
+   "key": "dbt-charts",
+   "name": "dbt Charts",
+   "one_liner": "YAML 한 파일로 대시보드를 만드는 dbt Charts를 설치하고 첫 보드 파일까지 만들어 봤습니다.",
+   "install": "",
+   "category": "etc",
+   "homepage": "",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/dbt-charts-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "dbt Charts 사용법: 설치부터 첫 보드까지",
+   "done_link": "https://review.kimwon.com/?p=218",
+   "post_date": "2026-09-16",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://raw.githubusercontent.com/dbt-labs/dbt-charts/HEAD/README.md",
+    "https://docs.dbtcharts.com/",
+    "https://play.dbtcharts.com/"
+   ]
+  },
+  {
    "key": "fnprint",
    "name": "fnprint",
    "one_liner": "심볼 없는 x86-64 ELF 함수를 동작 기반으로 식별하는 도구",
@@ -43,6 +87,69 @@
     "https://raw.githubusercontent.com/1rhino2/fnprint/HEAD/README.md"
    ],
    "done_link": "https://review.kimwon.com/?p=160"
+  },
+  {
+   "key": "google-home-mcp",
+   "name": "Google Home MCP",
+   "one_liner": "AI 에이전트가 집 안 기기를 읽고 제어하는 Google Home MCP, 준비물과 한계를 정리했습니다.",
+   "install": "",
+   "category": "etc",
+   "homepage": "",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/google-home-mcp-%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%99%88-ai/",
+   "post_title": "Google Home MCP, 무엇이고 누구에게 맞나",
+   "done_link": "https://review.kimwon.com/?p=221",
+   "post_date": "2026-09-17",
+   "env": "",
+   "official_sources": [
+    "https://developers.home.google.com/mcp/home",
+    "https://9to5google.com/2026/09/16/google-home-mcp/"
+   ]
+  },
+  {
+   "key": "mcpjam",
+   "name": "MCPJam",
+   "one_liner": "MCP 서버를 클라이언트별로 테스트하는 MCPJam을 설치하고 첫 명령까지 실행하는 과정을 화면과 함께 정리",
+   "install": "sudo npm i -g @mcpjam/cli",
+   "category": "etc",
+   "homepage": "",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/mcpjam-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "MCPJam 사용법: 설치부터 첫 명령까지",
+   "done_link": "https://review.kimwon.com/?p=227",
+   "post_date": "2026-09-18",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://github.com/MCPJam",
+    "https://docs.mcpjam.com/getting-started",
+    "https://docs.mcpjam.com/"
+   ]
+  },
+  {
+   "key": "nvidia-personal-ai-router",
+   "name": "NVIDIA Personal AI Router",
+   "one_liner": "같은 네트워크의 컴퓨터를 묶어 로컬 추론 요청을 나눠 보내는 NVIDIA PAIR, 무엇을 해 주고 무엇은 ",
+   "install": "",
+   "category": "etc",
+   "homepage": "",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/personal-ai-router-%eb%a1%9c%ec%bb%ac-ai-%eb%9d%bc%ec%9a%b0%ed%84%b0/",
+   "post_title": "PC 여러 대로 AI 돌리는 NVIDIA PAIR",
+   "done_link": "https://review.kimwon.com/?p=200",
+   "post_date": "2026-09-14",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/NVIDIA/Personal-AI-Router/HEAD/README.md"
+   ]
   },
   {
    "key": "vercel-labs-skills",
