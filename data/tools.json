@@ -1,8 +1,30 @@
 {
- "generated": "2026-09-21T10:00:18.196530+09:00",
+ "generated": "2026-09-28T10:00:36.620582+09:00",
  "source": "https://review.kimwon.com",
- "count": 10,
+ "count": 15,
  "tools": [
+  {
+   "key": "bastardica",
+   "name": "Bastardica",
+   "one_liner": "브라우저에서 글꼴 두 개를 섞어 새 폰트 파일을 만드는 웹 도구",
+   "install": "",
+   "category": "web",
+   "homepage": "https://bastardica.mitpit.com/",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/bastardica-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "Bastardica 사용법, 글꼴 두 개를 섞어 새 폰트로",
+   "done_link": "https://review.kimwon.com/?p=252",
+   "post_date": "2026-09-25",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://bastardica.mitpit.com/",
+    "https://www.ic.work/article/bastardica-font-foundry-opentype-wasm-analysis",
+    "https://hb.int2inf.com/en/s/item/GaSNYYaNiwnJxu9Pacj13p-bastardica-font-mixing-tool"
+   ]
+  },
   {
    "key": "bzip3",
    "name": "bzip3",
@@ -23,6 +45,28 @@
     "https://formulae.brew.sh/formula/bzip3"
    ],
    "done_link": "https://review.kimwon.com/?p=148"
+  },
+  {
+   "key": "cloudflare-python-workers",
+   "name": "Cloudflare Python Workers",
+   "one_liner": "Cloudflare 엣지에서 Python 코드를 실행하는 서버리스 런타임",
+   "install": "uv tool install workers-py",
+   "category": "infra",
+   "homepage": "https://github.com/cloudflare/python-workers-examples",
+   "repo": "cloudflare/python-workers-examples",
+   "license": "Apache-2.0",
+   "stars": 334,
+   "lang": "Python",
+   "post_url": "https://review.kimwon.com/cloudflare-python-workers-%ec%86%8c%ea%b0%9c/",
+   "post_title": "Cloudflare Python Workers가 달라진 점",
+   "done_link": "https://review.kimwon.com/?p=244",
+   "post_date": "2026-09-23",
+   "env": "",
+   "official_sources": [
+    "https://runtimewire.com/article/cloudflare-python-workers-ga-no-javascript-glue",
+    "https://deepwiki.com/cloudflare/python-workers-examples/2-getting-started",
+    "https://braindetox.kr/en/posts/cloudflare_python_workers_ga_2026.html"
+   ]
   },
   {
    "key": "cloudflare-quick-tunnels",
@@ -89,6 +133,28 @@
    "done_link": "https://review.kimwon.com/?p=160"
   },
   {
+   "key": "gemini-3-8-flash-tts",
+   "name": "Gemini 3.8 Flash TTS",
+   "one_liner": "프롬프트로 목소리를 설계하고 연기를 지시하는 구글 TTS 모델",
+   "install": "",
+   "category": "ai",
+   "homepage": "https://ai.google.dev/gemini-api/docs/speech-generation",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/gemini-38-flash-tts-%ec%9d%8c%ec%84%b1%ed%95%a9%ec%84%b1/",
+   "post_title": "Gemini 3.8 Flash TTS, 무엇이고 누구에게 맞나",
+   "done_link": "https://review.kimwon.com/?p=247",
+   "post_date": "2026-09-24",
+   "env": "",
+   "official_sources": [
+    "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+    "https://benchlm.ai/models/gemini-3-8-flash-tts"
+   ]
+  },
+  {
    "key": "google-home-mcp",
    "name": "Google Home MCP",
    "one_liner": "AI 에이전트가 집 안 기기를 읽고 제어하는 Google Home MCP, 준비물과 한계를 정리했습니다.",
@@ -149,6 +215,48 @@
    "env": "",
    "official_sources": [
     "https://raw.githubusercontent.com/NVIDIA/Personal-AI-Router/HEAD/README.md"
+   ]
+  },
+  {
+   "key": "omnibin",
+   "name": "omnibin",
+   "one_liner": "의료 AI 모델 평가 결과를 신뢰구간 포함 PDF 리포트로 만드는 파이썬 패키지",
+   "install": "pip install omnibin",
+   "category": "ai",
+   "homepage": "https://github.com/felipekitamura/omnibin",
+   "repo": "felipekitamura/omnibin",
+   "license": "MIT",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/omnibin-%eb%aa%a8%eb%8d%b8-%ed%8f%89%ea%b0%80-%eb%a6%ac%ed%8f%ac%ed%8a%b8/",
+   "post_title": "omnibin, 의료 AI 평가 리포트를 자동으로",
+   "done_link": "https://review.kimwon.com/?p=261",
+   "post_date": "2026-09-27",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/kitamura-felipe/omnibin/HEAD/README.md"
+   ]
+  },
+  {
+   "key": "pirate-face",
+   "name": "Pirate Face",
+   "one_liner": "공개 AI 모델을 검증된 토렌트로 보존·배포하는 웹 서비스",
+   "install": "",
+   "category": "ai",
+   "homepage": "https://pirateface.co",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/pirateface-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "Pirate Face 사용법, AI 모델을 토렌트로 보존",
+   "done_link": "https://review.kimwon.com/?p=241",
+   "post_date": "2026-09-21",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://news.lavx.hu/article/pirate-face-turn-ai-into-torrents-that-live-forever",
+    "https://upstract.com/x/7802e11906b4cd33",
+    "https://runtimewire.com/article/pirate-face-bittorrent-tracker-open-ai-models"
    ]
   },
   {
