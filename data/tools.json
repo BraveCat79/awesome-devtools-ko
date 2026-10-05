@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-28T10:00:36.620582+09:00",
+ "generated": "2026-10-05T10:00:42.844046+09:00",
  "source": "https://review.kimwon.com",
- "count": 15,
+ "count": 21,
  "tools": [
   {
    "key": "bastardica",
@@ -23,6 +23,28 @@
     "https://bastardica.mitpit.com/",
     "https://www.ic.work/article/bastardica-font-foundry-opentype-wasm-analysis",
     "https://hb.int2inf.com/en/s/item/GaSNYYaNiwnJxu9Pacj13p-bastardica-font-mixing-tool"
+   ]
+  },
+  {
+   "key": "book-of-shapes",
+   "name": "Book of Shapes",
+   "one_liner": "값을 조절해 SVG로 내려받는 생성형 패턴 모음 웹 사이트",
+   "install": "",
+   "category": "web",
+   "homepage": "https://bookofshapes.com/",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/bookofshapes-svg-%ed%8c%a8%ed%84%b4/",
+   "post_title": "Book of Shapes, 무엇이고 누구에게 맞나",
+   "done_link": "https://review.kimwon.com/?p=284",
+   "post_date": "2026-10-02",
+   "env": "",
+   "official_sources": [
+    "https://bookofshapes.com/",
+    "https://www.designminis.com/tools/bookofshapes",
+    "https://preproduction.christiedigital.com/support/whitepapers/book-of-shapes/"
    ]
   },
   {
@@ -155,6 +177,27 @@
    ]
   },
   {
+   "key": "globestudio",
+   "name": "Globestudio",
+   "one_liner": "점 지도와 3D 지구본을 만들어 이미지·영상으로 내보내는 오픈소스 웹 도구",
+   "install": "git clone https://github.com/alevizio/globestudio && cd globestudio && npm install",
+   "category": "web",
+   "homepage": "https://globestudio.app",
+   "repo": "alevizio/globestudio",
+   "license": "MIT",
+   "stars": 12,
+   "lang": "JavaScript",
+   "post_url": "https://review.kimwon.com/globestudio-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "Globestudio 사용법, 점 지도와 3D 지구본을 무료로",
+   "done_link": "https://review.kimwon.com/?p=296",
+   "post_date": "2026-10-04",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://raw.githubusercontent.com/alevizio/globestudio/HEAD/README.md",
+    "https://globestudio.app/"
+   ]
+  },
+  {
    "key": "google-home-mcp",
    "name": "Google Home MCP",
    "one_liner": "AI 에이전트가 집 안 기기를 읽고 제어하는 Google Home MCP, 준비물과 한계를 정리했습니다.",
@@ -173,6 +216,48 @@
    "official_sources": [
     "https://developers.home.google.com/mcp/home",
     "https://9to5google.com/2026/09/16/google-home-mcp/"
+   ]
+  },
+  {
+   "key": "hn-watch",
+   "name": "HN Watch",
+   "one_liner": "Claude 에이전트로 해커뉴스를 감시해 관심 글을 골라 주는 macOS 앱",
+   "install": "git clone https://github.com/sourabhbgp/hn-watch && cd hn-watch && npm install",
+   "category": "ai",
+   "homepage": "https://github.com/sourabhbgp/hn-watch",
+   "repo": "sourabhbgp/hn-watch",
+   "license": "MIT",
+   "stars": 1,
+   "lang": "Rust",
+   "post_url": "https://review.kimwon.com/hn-watch-%ed%95%b4%ec%bb%a4%eb%89%b4%ec%8a%a4-%ec%95%8c%eb%a6%bc/",
+   "post_title": "HN Watch, 해커뉴스를 대신 지켜보는 맥 앱",
+   "done_link": "https://review.kimwon.com/?p=274",
+   "post_date": "2026-09-29",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/sourabhbgp/hn-watch/HEAD/README.md"
+   ]
+  },
+  {
+   "key": "lofi-cities",
+   "name": "Lofi Cities",
+   "one_liner": "픽셀아트 도시 야경과 실시간 합성 로파이 음악을 트는 무료 웹 앱",
+   "install": "",
+   "category": "web",
+   "homepage": "https://loficities.com",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/lofi-cities-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "Lofi Cities 사용법, 설치 없이 켜는 작업용 로파이",
+   "done_link": "https://review.kimwon.com/?p=271",
+   "post_date": "2026-09-28",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://loficities.com/",
+    "https://hn.nuxt.dev/item/49869574",
+    "https://news.ycombinator.com/item?id=49869574"
    ]
   },
   {
@@ -238,6 +323,27 @@
    ]
   },
   {
+   "key": "apple-pass-designer",
+   "name": "Pass Designer",
+   "one_liner": "Apple Wallet 패스 템플릿을 보면서 편집하는 Apple의 Mac 앱",
+   "install": "",
+   "category": "dev",
+   "homepage": "https://developer.apple.com/pass-designer",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/pass-designer-%ec%95%a0%ed%94%8c%ec%9b%94%eb%a0%9b%ed%8c%a8%ec%8a%a4/",
+   "post_title": "Apple Pass Designer, 무엇이고 누구에게 맞나",
+   "done_link": "https://review.kimwon.com/?p=287",
+   "post_date": "2026-10-03",
+   "env": "",
+   "official_sources": [
+    "https://upstract.com/x/d3612daec711cd60",
+    "https://www.walletwallet.dev/blog/apple-pass-designer/"
+   ]
+  },
+  {
    "key": "pirate-face",
    "name": "Pirate Face",
    "one_liner": "공개 AI 모델을 검증된 토렌트로 보존·배포하는 웹 서비스",
@@ -279,6 +385,28 @@
     "https://raw.githubusercontent.com/vercel-labs/skills/HEAD/README.md",
     "https://www.skills.sh/docs",
     "https://www.skills.sh/vercel-labs/skills/find-skills"
+   ]
+  },
+  {
+   "key": "tcl-tk-9-1",
+   "name": "Tcl/Tk",
+   "one_liner": "스크립트 언어 Tcl과 GUI 툴킷 Tk를 묶은 조합",
+   "install": "brew install tcl-tk",
+   "category": "dev",
+   "homepage": "https://www.tcl-lang.org/",
+   "repo": null,
+   "license": "TCL",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/tcltk-91-%ec%83%88%ea%b8%b0%eb%8a%a5/",
+   "post_title": "Tcl/Tk 9.1, 무엇이 달라졌고 누구에게 맞나",
+   "done_link": "https://review.kimwon.com/?p=277",
+   "post_date": "2026-09-30",
+   "env": "",
+   "official_sources": [
+    "https://www.tcl-lang.org/software/tcltk/9.1.html",
+    "https://news.ycombinator.com/item?id=49896712",
+    "https://hn.watch/?item=49896712"
    ]
   },
   {
