@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-05T10:00:42.844046+09:00",
+ "generated": "2026-10-06T15:49:58.669262+09:00",
  "source": "https://review.kimwon.com",
- "count": 21,
+ "count": 22,
  "tools": [
   {
    "key": "bastardica",
@@ -11,7 +11,7 @@
    "category": "web",
    "homepage": "https://bastardica.mitpit.com/",
    "repo": null,
-   "license": "",
+   "license": "해당 없음(웹 서비스)",
    "stars": null,
    "lang": "",
    "post_url": "https://review.kimwon.com/bastardica-%ec%82%ac%ec%9a%a9%eb%b2%95/",
@@ -23,7 +23,8 @@
     "https://bastardica.mitpit.com/",
     "https://www.ic.work/article/bastardica-font-foundry-opentype-wasm-analysis",
     "https://hb.int2inf.com/en/s/item/GaSNYYaNiwnJxu9Pacj13p-bastardica-font-mixing-tool"
-   ]
+   ],
+   "access": "설치 없음 — 브라우저에서 바로"
   },
   {
    "key": "book-of-shapes",
@@ -33,7 +34,7 @@
    "category": "web",
    "homepage": "https://bookofshapes.com/",
    "repo": null,
-   "license": "",
+   "license": "해당 없음(웹 서비스)",
    "stars": null,
    "lang": "",
    "post_url": "https://review.kimwon.com/bookofshapes-svg-%ed%8c%a8%ed%84%b4/",
@@ -45,7 +46,8 @@
     "https://bookofshapes.com/",
     "https://www.designminis.com/tools/bookofshapes",
     "https://preproduction.christiedigital.com/support/whitepapers/book-of-shapes/"
-   ]
+   ],
+   "access": "설치 없음 — 브라우저에서 바로"
   },
   {
    "key": "bzip3",
@@ -93,14 +95,14 @@
   {
    "key": "cloudflare-quick-tunnels",
    "name": "Cloudflare Quick Tunnels",
-   "one_liner": "계정도 포트 개방도 없이, 명령 한 줄로 내 컴퓨터의 개발 서버에 공개 HTTPS 주소를 붙이는 방법.",
-   "install": "",
-   "category": "etc",
-   "homepage": "https://github.com/randyburden/cbda4da88bc4e6cd9e17d59ecf03dcf9",
-   "repo": "randyburden/cbda4da88bc4e6cd9e17d59ecf03dcf9",
-   "license": "",
-   "stars": null,
-   "lang": "",
+   "one_liner": "계정 없이 로컬 서버에 공개 HTTPS 주소를 붙이는 cloudflared 기능",
+   "install": "brew install cloudflared",
+   "category": "infra",
+   "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/do-more-with-tunnels/trycloudflare/",
+   "repo": "cloudflare/cloudflared",
+   "license": "Apache-2.0",
+   "stars": 16035,
+   "lang": "Go",
    "post_url": "https://review.kimwon.com/cloudflare-quick-tunnels-%ec%82%ac%ec%9a%a9%eb%b2%95/",
    "post_title": "Quick Tunnels 사용법, 로컬을 공개 URL로",
    "done_link": "https://review.kimwon.com/?p=233",
@@ -115,14 +117,14 @@
   {
    "key": "dbt-charts",
    "name": "dbt Charts",
-   "one_liner": "YAML 한 파일로 대시보드를 만드는 dbt Charts를 설치하고 첫 보드 파일까지 만들어 봤습니다.",
-   "install": "",
-   "category": "etc",
-   "homepage": "",
-   "repo": null,
-   "license": "",
-   "stars": null,
-   "lang": "",
+   "one_liner": "SQL과 YAML 파일 하나로 대시보드를 정의하는 dbt Labs 도구",
+   "install": "uv tool install dbt-charts",
+   "category": "data",
+   "homepage": "https://docs.dbtcharts.com/",
+   "repo": "dbt-labs/dbt-charts",
+   "license": "Apache-2.0",
+   "stars": 550,
+   "lang": "Python",
    "post_url": "https://review.kimwon.com/dbt-charts-%ec%82%ac%ec%9a%a9%eb%b2%95/",
    "post_title": "dbt Charts 사용법: 설치부터 첫 보드까지",
    "done_link": "https://review.kimwon.com/?p=218",
@@ -162,7 +164,7 @@
    "category": "ai",
    "homepage": "https://ai.google.dev/gemini-api/docs/speech-generation",
    "repo": null,
-   "license": "",
+   "license": "해당 없음(Google API)",
    "stars": null,
    "lang": "",
    "post_url": "https://review.kimwon.com/gemini-38-flash-tts-%ec%9d%8c%ec%84%b1%ed%95%a9%ec%84%b1/",
@@ -174,7 +176,8 @@
     "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
     "https://benchlm.ai/models/gemini-3-8-flash-tts"
-   ]
+   ],
+   "access": "설치 없음 — Gemini API로 호출"
   },
   {
    "key": "globestudio",
@@ -200,12 +203,12 @@
   {
    "key": "google-home-mcp",
    "name": "Google Home MCP",
-   "one_liner": "AI 에이전트가 집 안 기기를 읽고 제어하는 Google Home MCP, 준비물과 한계를 정리했습니다.",
+   "one_liner": "AI 에이전트가 Google Home 기기를 읽고 제어하게 하는 공식 MCP 서버",
    "install": "",
-   "category": "etc",
-   "homepage": "",
+   "category": "ai",
+   "homepage": "https://developers.home.google.com/mcp/home",
    "repo": null,
-   "license": "",
+   "license": "해당 없음(Google 서비스)",
    "stars": null,
    "lang": "",
    "post_url": "https://review.kimwon.com/google-home-mcp-%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%99%88-ai/",
@@ -216,7 +219,8 @@
    "official_sources": [
     "https://developers.home.google.com/mcp/home",
     "https://9to5google.com/2026/09/16/google-home-mcp/"
-   ]
+   ],
+   "access": "설치 없음 — 원격 MCP 서버(Home Premium Advanced 구독)"
   },
   {
    "key": "hn-watch",
@@ -239,6 +243,28 @@
    ]
   },
   {
+   "key": "ledge-sh",
+   "name": "Ledge",
+   "one_liner": "마크다운 노트 속 코드 블록을 그 자리에서 실행하는 노트 앱",
+   "install": "",
+   "category": "dev",
+   "homepage": "https://ledge.sh/",
+   "repo": "ledgesh/ledge",
+   "license": "Apache-2.0",
+   "stars": 309,
+   "lang": "TypeScript",
+   "post_url": "https://review.kimwon.com/ledge-%eb%a7%88%ed%81%ac%eb%8b%a4%ec%9a%b4-%eb%85%b8%ed%8a%b8-%ec%bd%94%eb%93%9c%ec%8b%a4%ed%96%89/",
+   "post_title": "Ledge, 실행되는 마크다운 노트는 누구에게 맞나",
+   "done_link": "https://review.kimwon.com/?p=301",
+   "post_date": "2026-10-05",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/ledgesh/ledge/HEAD/README.md",
+    "https://ledge.sh/"
+   ],
+   "access": "공식 사이트 설치 파일(macOS·Linux·Windows·모바일)"
+  },
+  {
    "key": "lofi-cities",
    "name": "Lofi Cities",
    "one_liner": "픽셀아트 도시 야경과 실시간 합성 로파이 음악을 트는 무료 웹 앱",
@@ -246,7 +272,7 @@
    "category": "web",
    "homepage": "https://loficities.com",
    "repo": null,
-   "license": "",
+   "license": "해당 없음(웹 서비스)",
    "stars": null,
    "lang": "",
    "post_url": "https://review.kimwon.com/lofi-cities-%ec%82%ac%ec%9a%a9%eb%b2%95/",
@@ -258,19 +284,20 @@
     "https://loficities.com/",
     "https://hn.nuxt.dev/item/49869574",
     "https://news.ycombinator.com/item?id=49869574"
-   ]
+   ],
+   "access": "설치 없음 — 브라우저에서 바로"
   },
   {
    "key": "mcpjam",
    "name": "MCPJam",
-   "one_liner": "MCP 서버를 클라이언트별로 테스트하는 MCPJam을 설치하고 첫 명령까지 실행하는 과정을 화면과 함께 정리",
-   "install": "sudo npm i -g @mcpjam/cli",
-   "category": "etc",
-   "homepage": "",
-   "repo": null,
-   "license": "",
-   "stars": null,
-   "lang": "",
+   "one_liner": "MCP 서버·앱을 채팅하며 검사·디버깅하는 테스트 도구",
+   "install": "npm i -g @mcpjam/cli",
+   "category": "ai",
+   "homepage": "https://www.mcpjam.com/",
+   "repo": "MCPJam/inspector",
+   "license": "Apache-2.0(일부 별도)",
+   "stars": 2238,
+   "lang": "TypeScript",
    "post_url": "https://review.kimwon.com/mcpjam-%ec%82%ac%ec%9a%a9%eb%b2%95/",
    "post_title": "MCPJam 사용법: 설치부터 첫 명령까지",
    "done_link": "https://review.kimwon.com/?p=227",
@@ -285,14 +312,14 @@
   {
    "key": "nvidia-personal-ai-router",
    "name": "NVIDIA Personal AI Router",
-   "one_liner": "같은 네트워크의 컴퓨터를 묶어 로컬 추론 요청을 나눠 보내는 NVIDIA PAIR, 무엇을 해 주고 무엇은 ",
+   "one_liner": "집 안 여러 컴퓨터에 로컬 AI 추론 요청을 나눠 보내는 라우터",
    "install": "",
-   "category": "etc",
-   "homepage": "",
-   "repo": null,
-   "license": "",
-   "stars": null,
-   "lang": "",
+   "category": "ai",
+   "homepage": "https://github.com/NVIDIA/Personal-AI-Router",
+   "repo": "NVIDIA/Personal-AI-Router",
+   "license": "Apache-2.0",
+   "stars": 1552,
+   "lang": "Go",
    "post_url": "https://review.kimwon.com/personal-ai-router-%eb%a1%9c%ec%bb%ac-ai-%eb%9d%bc%ec%9a%b0%ed%84%b0/",
    "post_title": "PC 여러 대로 AI 돌리는 NVIDIA PAIR",
    "done_link": "https://review.kimwon.com/?p=200",
@@ -300,7 +327,8 @@
    "env": "",
    "official_sources": [
     "https://raw.githubusercontent.com/NVIDIA/Personal-AI-Router/HEAD/README.md"
-   ]
+   ],
+   "access": "릴리스 페이지 설치 파일(exe·deb·dmg)"
   },
   {
    "key": "omnibin",
@@ -308,11 +336,11 @@
    "one_liner": "의료 AI 모델 평가 결과를 신뢰구간 포함 PDF 리포트로 만드는 파이썬 패키지",
    "install": "pip install omnibin",
    "category": "ai",
-   "homepage": "https://github.com/felipekitamura/omnibin",
-   "repo": "felipekitamura/omnibin",
+   "homepage": "https://github.com/kitamura-felipe/omnibin",
+   "repo": "kitamura-felipe/omnibin",
    "license": "MIT",
-   "stars": null,
-   "lang": "",
+   "stars": 3,
+   "lang": "Python",
    "post_url": "https://review.kimwon.com/omnibin-%eb%aa%a8%eb%8d%b8-%ed%8f%89%ea%b0%80-%eb%a6%ac%ed%8f%ac%ed%8a%b8/",
    "post_title": "omnibin, 의료 AI 평가 리포트를 자동으로",
    "done_link": "https://review.kimwon.com/?p=261",
@@ -330,7 +358,7 @@
    "category": "dev",
    "homepage": "https://developer.apple.com/pass-designer",
    "repo": null,
-   "license": "",
+   "license": "해당 없음(Apple 무료 앱)",
    "stars": null,
    "lang": "",
    "post_url": "https://review.kimwon.com/pass-designer-%ec%95%a0%ed%94%8c%ec%9b%94%eb%a0%9b%ed%8c%a8%ec%8a%a4/",
@@ -341,7 +369,8 @@
    "official_sources": [
     "https://upstract.com/x/d3612daec711cd60",
     "https://www.walletwallet.dev/blog/apple-pass-designer/"
-   ]
+   ],
+   "access": "Apple Developer 사이트에서 내려받기(macOS 27+)"
   },
   {
    "key": "pirate-face",
@@ -351,7 +380,7 @@
    "category": "ai",
    "homepage": "https://pirateface.co",
    "repo": null,
-   "license": "",
+   "license": "해당 없음(웹 서비스)",
    "stars": null,
    "lang": "",
    "post_url": "https://review.kimwon.com/pirateface-%ec%82%ac%ec%9a%a9%eb%b2%95/",
@@ -363,7 +392,8 @@
     "https://news.lavx.hu/article/pirate-face-turn-ai-into-torrents-that-live-forever",
     "https://upstract.com/x/7802e11906b4cd33",
     "https://runtimewire.com/article/pirate-face-bittorrent-tracker-open-ai-models"
-   ]
+   ],
+   "access": "설치 없음 — 브라우저에서 바로"
   },
   {
    "key": "vercel-labs-skills",
@@ -372,10 +402,10 @@
    "install": "npx skills add <owner/repo>",
    "category": "ai",
    "homepage": "https://skills.sh",
-   "repo": null,
+   "repo": "vercel-labs/skills",
    "license": "MIT",
-   "stars": null,
-   "lang": "",
+   "stars": 33220,
+   "lang": "TypeScript",
    "post_url": "https://review.kimwon.com/skills-cli-%ec%82%ac%ec%9a%a9%eb%b2%95/",
    "post_title": "skills 사용법: 설치부터 첫 스킬 적용까지",
    "done_link": "https://review.kimwon.com/?p=180",
@@ -415,11 +445,11 @@
    "one_liner": "브라우저 탭에서 nixpkgs 패키지를 설치 없이 바로 실행하는 웹 도구",
    "install": "",
    "category": "dev",
-   "homepage": "https://github.com/marketplace/actions",
-   "repo": "marketplace/actions",
+   "homepage": "https://trynix.dev",
+   "repo": "fzakaria/trynix",
    "license": "MIT",
-   "stars": null,
-   "lang": "",
+   "stars": 159,
+   "lang": "JavaScript",
    "post_url": "https://review.kimwon.com/trynix-%ec%82%ac%ec%9a%a9%eb%b2%95/",
    "post_title": "trynix 사용법, 브라우저 탭에서 패키지 바로 실행",
    "done_link": "https://review.kimwon.com/?p=195",
@@ -427,7 +457,8 @@
    "env": "Debian 12",
    "official_sources": [
     "https://github.com/marketplace/actions/trynix-preview"
-   ]
+   ],
+   "access": "설치 없음 — 브라우저에서 바로"
   },
   {
    "key": "unslop-news",
@@ -437,8 +468,8 @@
    "category": "ai",
    "homepage": "https://github.com/theclaymethod/unslop",
    "repo": "theclaymethod/unslop",
-   "license": "",
-   "stars": 411,
+   "license": "MIT(README 표기)",
+   "stars": 505,
    "lang": "Python",
    "post_url": "https://review.kimwon.com/unslop-%ec%82%ac%ec%9a%a9%eb%b2%95/",
    "post_title": "unslop 사용법: 설치부터 첫 검사까지",
