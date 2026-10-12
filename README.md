@@ -4,15 +4,18 @@
 
 직접 설치해 실행한 기록(Debian 12 LXC 샌드박스)을 바탕으로 만든 표입니다. 각 행의 **심화 글**에 설치 과정·첫 화면·실제 출력이 있습니다. 기계 판독용 데이터는 [`data/tools.json`](data/tools.json).
 
-갱신 2026-10-06 · 도구 22개 · 라이선스 [CC BY 4.0](LICENSE)
+갱신 2026-10-12 · 도구 26개 · 라이선스 [CC BY 4.0](LICENSE)
 
 ## 전체 표
 
 | 도구 | 무엇 | 설치 한 줄 | 라이선스 | 심화 글 |
 |---|---|---|---|---|
+| [A Walkable History of Art](https://artmuseum.artfrompixels.com/) | 미술사 연표에서 화가를 골라 3D 가상 갤러리로 들어가는 웹사이트 | — | — | [A Walkable History of Art: 3D 미술사 갤러리, 누구에게 맞나](https://review.kimwon.com/a-walkable-history-of-art-%eb%af%b8%ec%88%a0%ec%82%ac/) |
+| [agent-gc](https://www.npmjs.com/package/agent-gc) | AI 코딩 에이전트가 남긴 worktree와 빌드 산출물을 정리하는 Rust TUI | `npm install -g agent-gc` | MIT | [agent-gc 사용법, AI 에이전트가 남긴 용량 되찾기](https://review.kimwon.com/agent-gc-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 | [Bastardica](https://bastardica.mitpit.com/) | 브라우저에서 글꼴 두 개를 섞어 새 폰트 파일을 만드는 웹 도구 | 설치 없음 — 브라우저에서 바로 | 해당 없음(웹 서비스) | [Bastardica 사용법, 글꼴 두 개를 섞어 새 폰트로](https://review.kimwon.com/bastardica-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 | [Book of Shapes](https://bookofshapes.com/) | 값을 조절해 SVG로 내려받는 생성형 패턴 모음 웹 사이트 | 설치 없음 — 브라우저에서 바로 | 해당 없음(웹 서비스) | [Book of Shapes, 무엇이고 누구에게 맞나](https://review.kimwon.com/bookofshapes-svg-%ed%8c%a8%ed%84%b4/) |
 | [bzip3](https://github.com/iczelia/bzip3) | bzip2를 잇는 블록 정렬 기반 고압축률 명령줄 압축기 | `brew install bzip3` | LGPL-3.0 | [bzip3, 무엇이고 누구에게 맞나](https://review.kimwon.com/bzip3-what-it-is-and-who-its-for/) |
+| [Carrier-Explode](https://carrierexplode.com) | 아이폰·픽셀·갤럭시 펌웨어의 통신사 설정을 해독해 비교하는 사이트 | — | MIT | [Carrier-Explode 사용법: 아이폰·갤럭시 통신사 설정 비교 사이트, 조회부터 API까지](https://review.kimwon.com/carrier-explode-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 | [Cloudflare Python Workers](https://github.com/cloudflare/python-workers-examples) | Cloudflare 엣지에서 Python 코드를 실행하는 서버리스 런타임 | `uv tool install workers-py` | Apache-2.0 | [Cloudflare Python Workers가 달라진 점](https://review.kimwon.com/cloudflare-python-workers-%ec%86%8c%ea%b0%9c/) |
 | [Cloudflare Quick Tunnels](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/do-more-with-tunnels/trycloudflare/) | 계정 없이 로컬 서버에 공개 HTTPS 주소를 붙이는 cloudflared 기능 | `brew install cloudflared` | Apache-2.0 | [Quick Tunnels 사용법, 로컬을 공개 URL로](https://review.kimwon.com/cloudflare-quick-tunnels-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 | [dbt Charts](https://docs.dbtcharts.com/) | SQL과 YAML 파일 하나로 대시보드를 정의하는 dbt Labs 도구 | `uv tool install dbt-charts` | Apache-2.0 | [dbt Charts 사용법: 설치부터 첫 보드까지](https://review.kimwon.com/dbt-charts-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
@@ -29,12 +32,16 @@
 | [Pass Designer](https://developer.apple.com/pass-designer) | Apple Wallet 패스 템플릿을 보면서 편집하는 Apple의 Mac 앱 | Apple Developer 사이트에서 내려받기(macOS 27+) | 해당 없음(Apple 무료 앱) | [Apple Pass Designer, 무엇이고 누구에게 맞나](https://review.kimwon.com/pass-designer-%ec%95%a0%ed%94%8c%ec%9b%94%eb%a0%9b%ed%8c%a8%ec%8a%a4/) |
 | [Pirate Face](https://pirateface.co) | 공개 AI 모델을 검증된 토렌트로 보존·배포하는 웹 서비스 | 설치 없음 — 브라우저에서 바로 | 해당 없음(웹 서비스) | [Pirate Face 사용법, AI 모델을 토렌트로 보존](https://review.kimwon.com/pirateface-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 | [skills](https://skills.sh) | GitHub 저장소의 에이전트 스킬을 코딩 에이전트에 설치·관리하는 CLI | `npx skills add <owner/repo>` | MIT | [skills 사용법: 설치부터 첫 스킬 적용까지](https://review.kimwon.com/skills-cli-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
+| [SymvaCAS](https://kirinonakar.github.io/symvacas/) | SymPy 기반 CAS·그래프·통계·파이썬을 합친 오픈소스 계산기 앱 | `.venv/bin/python -m pip install -q sympy==1.14.0` | MIT | [SymvaCAS 살펴보기: SymPy로 도는 무료 계산기](https://review.kimwon.com/symvacas-%ea%b3%b5%ed%95%99%ec%9a%a9-%ea%b3%84%ec%82%b0%ea%b8%b0/) |
 | [Tcl/Tk](https://www.tcl-lang.org/) | 스크립트 언어 Tcl과 GUI 툴킷 Tk를 묶은 조합 | `brew install tcl-tk` | TCL | [Tcl/Tk 9.1, 무엇이 달라졌고 누구에게 맞나](https://review.kimwon.com/tcltk-91-%ec%83%88%ea%b8%b0%eb%8a%a5/) |
 | [trynix](https://trynix.dev) | 브라우저 탭에서 nixpkgs 패키지를 설치 없이 바로 실행하는 웹 도구 | 설치 없음 — 브라우저에서 바로 | MIT | [trynix 사용법, 브라우저 탭에서 패키지 바로 실행](https://review.kimwon.com/trynix-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 | [unslop](https://github.com/theclaymethod/unslop) | AI 글투를 줄 단위로 찾아내는 파이썬 글쓰기 검사 도구 | `git clone https://github.com/theclaymethod/unslop` | MIT(README 표기) | [unslop 사용법: 설치부터 첫 검사까지](https://review.kimwon.com/unslop-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 
 ## CLI·터미널
 
+- **agent-gc** — AI 코딩 에이전트가 남긴 worktree와 빌드 산출물을 정리하는 Rust TUI (Rust · ★ 3 · [GitHub](https://github.com/williamjeong2/agent-gc))  
+  `npm install -g agent-gc`  
+  심화 글: [agent-gc 사용법, AI 에이전트가 남긴 용량 되찾기](https://review.kimwon.com/agent-gc-%ec%82%ac%ec%9a%a9%eb%b2%95/) · 2026-10-07
 - **bzip3** — bzip2를 잇는 블록 정렬 기반 고압축률 명령줄 압축기 (C · ★ 1,495 · [GitHub](https://github.com/iczelia/bzip3))  
   `brew install bzip3`  
   심화 글: [bzip3, 무엇이고 누구에게 맞나](https://review.kimwon.com/bzip3-what-it-is-and-who-its-for/) · 2026-09-09
@@ -95,12 +102,16 @@
 
 ## 웹·앱
 
+- **A Walkable History of Art** — 미술사 연표에서 화가를 골라 3D 가상 갤러리로 들어가는 웹사이트  
+  심화 글: [A Walkable History of Art: 3D 미술사 갤러리, 누구에게 맞나](https://review.kimwon.com/a-walkable-history-of-art-%eb%af%b8%ec%88%a0%ec%82%ac/) · 2026-10-09
 - **Bastardica** — 브라우저에서 글꼴 두 개를 섞어 새 폰트 파일을 만드는 웹 도구  
   설치 없음 — 브라우저에서 바로  
   심화 글: [Bastardica 사용법, 글꼴 두 개를 섞어 새 폰트로](https://review.kimwon.com/bastardica-%ec%82%ac%ec%9a%a9%eb%b2%95/) · 2026-09-25
 - **Book of Shapes** — 값을 조절해 SVG로 내려받는 생성형 패턴 모음 웹 사이트  
   설치 없음 — 브라우저에서 바로  
   심화 글: [Book of Shapes, 무엇이고 누구에게 맞나](https://review.kimwon.com/bookofshapes-svg-%ed%8c%a8%ed%84%b4/) · 2026-10-02
+- **Carrier-Explode** — 아이폰·픽셀·갤럭시 펌웨어의 통신사 설정을 해독해 비교하는 사이트 (TypeScript · ★ 70 · [GitHub](https://github.com/AlecDusheck/carrier-explode))  
+  심화 글: [Carrier-Explode 사용법: 아이폰·갤럭시 통신사 설정 비교 사이트, 조회부터 API까지](https://review.kimwon.com/carrier-explode-%ec%82%ac%ec%9a%a9%eb%b2%95/) · 2026-10-10
 - **Globestudio** — 점 지도와 3D 지구본을 만들어 이미지·영상으로 내보내는 오픈소스 웹 도구 (JavaScript · ★ 12 · [GitHub](https://github.com/alevizio/globestudio))  
   `git clone https://github.com/alevizio/globestudio && cd globestudio && npm install`  
   심화 글: [Globestudio 사용법, 점 지도와 3D 지구본을 무료로](https://review.kimwon.com/globestudio-%ec%82%ac%ec%9a%a9%eb%b2%95/) · 2026-10-04
@@ -116,6 +127,12 @@
 - **Cloudflare Quick Tunnels** — 계정 없이 로컬 서버에 공개 HTTPS 주소를 붙이는 cloudflared 기능 (Go · ★ 16,035 · [GitHub](https://github.com/cloudflare/cloudflared))  
   `brew install cloudflared`  
   심화 글: [Quick Tunnels 사용법, 로컬을 공개 URL로](https://review.kimwon.com/cloudflare-quick-tunnels-%ec%82%ac%ec%9a%a9%eb%b2%95/) · 2026-09-19
+
+## 기타
+
+- **SymvaCAS** — SymPy 기반 CAS·그래프·통계·파이썬을 합친 오픈소스 계산기 앱 (Python · ★ 1 · [GitHub](https://github.com/kirinonakar/symvacas))  
+  `.venv/bin/python -m pip install -q sympy==1.14.0`  
+  심화 글: [SymvaCAS 살펴보기: SymPy로 도는 무료 계산기](https://review.kimwon.com/symvacas-%ea%b3%b5%ed%95%99%ec%9a%a9-%ea%b3%84%ec%82%b0%ea%b8%b0/) · 2026-10-08
 
 ## 출처·원칙
 

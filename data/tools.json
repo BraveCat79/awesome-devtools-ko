@@ -1,8 +1,48 @@
 {
- "generated": "2026-10-06T15:49:58.669262+09:00",
+ "generated": "2026-10-12T10:00:38.739539+09:00",
  "source": "https://review.kimwon.com",
- "count": 22,
+ "count": 26,
  "tools": [
+  {
+   "key": "a-walkable-history-of-art",
+   "name": "A Walkable History of Art",
+   "one_liner": "미술사 연표에서 화가를 골라 3D 가상 갤러리로 들어가는 웹사이트",
+   "install": "",
+   "category": "web",
+   "homepage": "https://artmuseum.artfrompixels.com/",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/a-walkable-history-of-art-%eb%af%b8%ec%88%a0%ec%82%ac/",
+   "post_title": "A Walkable History of Art: 3D 미술사 갤러리, 누구에게 맞나",
+   "done_link": "https://review.kimwon.com/?p=318",
+   "post_date": "2026-10-09",
+   "env": "",
+   "official_sources": [
+    "https://artmuseum.artfrompixels.com/"
+   ]
+  },
+  {
+   "key": "agent-gc",
+   "name": "agent-gc",
+   "one_liner": "AI 코딩 에이전트가 남긴 worktree와 빌드 산출물을 정리하는 Rust TUI",
+   "install": "npm install -g agent-gc",
+   "category": "cli",
+   "homepage": "https://www.npmjs.com/package/agent-gc",
+   "repo": "williamjeong2/agent-gc",
+   "license": "MIT",
+   "stars": 3,
+   "lang": "Rust",
+   "post_url": "https://review.kimwon.com/agent-gc-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "agent-gc 사용법, AI 에이전트가 남긴 용량 되찾기",
+   "done_link": "https://review.kimwon.com/?p=310",
+   "post_date": "2026-10-07",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://raw.githubusercontent.com/williamjeong2/agent-gc/HEAD/README.md"
+   ]
+  },
   {
    "key": "bastardica",
    "name": "Bastardica",
@@ -69,6 +109,27 @@
     "https://formulae.brew.sh/formula/bzip3"
    ],
    "done_link": "https://review.kimwon.com/?p=148"
+  },
+  {
+   "key": "carrier-explode",
+   "name": "Carrier-Explode",
+   "one_liner": "아이폰·픽셀·갤럭시 펌웨어의 통신사 설정을 해독해 비교하는 사이트",
+   "install": "",
+   "category": "web",
+   "homepage": "https://carrierexplode.com",
+   "repo": "AlecDusheck/carrier-explode",
+   "license": "MIT",
+   "stars": 70,
+   "lang": "TypeScript",
+   "post_url": "https://review.kimwon.com/carrier-explode-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "Carrier-Explode 사용법: 아이폰·갤럭시 통신사 설정 비교 사이트, 조회부터 API까지",
+   "done_link": "https://review.kimwon.com/?p=331",
+   "post_date": "2026-10-10",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://raw.githubusercontent.com/AlecDusheck/carrier-explode/HEAD/README.md",
+    "https://carrierexplode.com/"
+   ]
   },
   {
    "key": "cloudflare-python-workers",
@@ -415,6 +476,26 @@
     "https://raw.githubusercontent.com/vercel-labs/skills/HEAD/README.md",
     "https://www.skills.sh/docs",
     "https://www.skills.sh/vercel-labs/skills/find-skills"
+   ]
+  },
+  {
+   "key": "symvacas",
+   "name": "SymvaCAS",
+   "one_liner": "SymPy 기반 CAS·그래프·통계·파이썬을 합친 오픈소스 계산기 앱",
+   "install": ".venv/bin/python -m pip install -q sympy==1.14.0",
+   "category": "etc",
+   "homepage": "https://kirinonakar.github.io/symvacas/",
+   "repo": "kirinonakar/symvacas",
+   "license": "MIT",
+   "stars": 1,
+   "lang": "Python",
+   "post_url": "https://review.kimwon.com/symvacas-%ea%b3%b5%ed%95%99%ec%9a%a9-%ea%b3%84%ec%82%b0%ea%b8%b0/",
+   "post_title": "SymvaCAS 살펴보기: SymPy로 도는 무료 계산기",
+   "done_link": "https://review.kimwon.com/?p=314",
+   "post_date": "2026-10-08",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/kirinonakar/symvacas/HEAD/README.md"
    ]
   },
   {
