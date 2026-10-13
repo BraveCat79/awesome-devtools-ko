@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-12T10:00:38.739539+09:00",
+ "generated": "2026-10-13T14:49:03.554974+09:00",
  "source": "https://review.kimwon.com",
- "count": 26,
+ "count": 28,
  "tools": [
   {
    "key": "a-walkable-history-of-art",
@@ -11,7 +11,7 @@
    "category": "web",
    "homepage": "https://artmuseum.artfrompixels.com/",
    "repo": null,
-   "license": "",
+   "license": "해당 없음(웹 서비스)",
    "stars": null,
    "lang": "",
    "post_url": "https://review.kimwon.com/a-walkable-history-of-art-%eb%af%b8%ec%88%a0%ec%82%ac/",
@@ -21,7 +21,10 @@
    "env": "",
    "official_sources": [
     "https://artmuseum.artfrompixels.com/"
-   ]
+   ],
+   "verify": "partial",
+   "verify_note": "샌드박스 일부 실행 (1/1단계) + 공식 문서",
+   "access": "설치 없음 — 브라우저에서 바로"
   },
   {
    "key": "agent-gc",
@@ -29,7 +32,7 @@
    "one_liner": "AI 코딩 에이전트가 남긴 worktree와 빌드 산출물을 정리하는 Rust TUI",
    "install": "npm install -g agent-gc",
    "category": "cli",
-   "homepage": "https://www.npmjs.com/package/agent-gc",
+   "homepage": "https://github.com/williamjeong2/agent-gc",
    "repo": "williamjeong2/agent-gc",
    "license": "MIT",
    "stars": 3,
@@ -41,7 +44,9 @@
    "env": "Debian 12",
    "official_sources": [
     "https://raw.githubusercontent.com/williamjeong2/agent-gc/HEAD/README.md"
-   ]
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (7/8단계 성공)"
   },
   {
    "key": "bastardica",
@@ -64,6 +69,8 @@
     "https://www.ic.work/article/bastardica-font-foundry-opentype-wasm-analysis",
     "https://hb.int2inf.com/en/s/item/GaSNYYaNiwnJxu9Pacj13p-bastardica-font-mixing-tool"
    ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (3/3단계 성공)",
    "access": "설치 없음 — 브라우저에서 바로"
   },
   {
@@ -87,6 +94,8 @@
     "https://www.designminis.com/tools/bookofshapes",
     "https://preproduction.christiedigital.com/support/whitepapers/book-of-shapes/"
    ],
+   "verify": "partial",
+   "verify_note": "샌드박스 일부 실행 (3/3단계) + 공식 문서",
    "access": "설치 없음 — 브라우저에서 바로"
   },
   {
@@ -108,7 +117,9 @@
     "https://raw.githubusercontent.com/iczelia/bzip3/HEAD/README.md",
     "https://formulae.brew.sh/formula/bzip3"
    ],
-   "done_link": "https://review.kimwon.com/?p=148"
+   "done_link": "https://review.kimwon.com/?p=148",
+   "verify": "partial",
+   "verify_note": "샌드박스 일부 실행 (2/6단계) + 공식 문서"
   },
   {
    "key": "carrier-explode",
@@ -129,7 +140,10 @@
    "official_sources": [
     "https://raw.githubusercontent.com/AlecDusheck/carrier-explode/HEAD/README.md",
     "https://carrierexplode.com/"
-   ]
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (4/5단계 성공)",
+   "access": "설치 없음 — 웹사이트에서 조회(공개 API 제공)"
   },
   {
    "key": "cloudflare-python-workers",
@@ -151,7 +165,9 @@
     "https://runtimewire.com/article/cloudflare-python-workers-ga-no-javascript-glue",
     "https://deepwiki.com/cloudflare/python-workers-examples/2-getting-started",
     "https://braindetox.kr/en/posts/cloudflare_python_workers_ga_2026.html"
-   ]
+   ],
+   "verify": "partial",
+   "verify_note": "샌드박스 일부 실행 (1/7단계) + 공식 문서"
   },
   {
    "key": "cloudflare-quick-tunnels",
@@ -173,7 +189,9 @@
     "https://gist.github.com/randyburden/cbda4da88bc4e6cd9e17d59ecf03dcf9",
     "https://cloudflare-docs.justalittlebyte.ovh/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/",
     "http://try.cloudflare.com/"
-   ]
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (6/8단계 성공)"
   },
   {
    "key": "dbt-charts",
@@ -195,7 +213,9 @@
     "https://raw.githubusercontent.com/dbt-labs/dbt-charts/HEAD/README.md",
     "https://docs.dbtcharts.com/",
     "https://play.dbtcharts.com/"
-   ]
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (6/8단계 성공)"
   },
   {
    "key": "fnprint",
@@ -215,7 +235,9 @@
    "official_sources": [
     "https://raw.githubusercontent.com/1rhino2/fnprint/HEAD/README.md"
    ],
-   "done_link": "https://review.kimwon.com/?p=160"
+   "done_link": "https://review.kimwon.com/?p=160",
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
   },
   {
    "key": "gemini-3-8-flash-tts",
@@ -238,6 +260,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
     "https://benchlm.ai/models/gemini-3-8-flash-tts"
    ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)",
    "access": "설치 없음 — Gemini API로 호출"
   },
   {
@@ -259,7 +283,9 @@
    "official_sources": [
     "https://raw.githubusercontent.com/alevizio/globestudio/HEAD/README.md",
     "https://globestudio.app/"
-   ]
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (8/8단계 성공)"
   },
   {
    "key": "google-home-mcp",
@@ -281,6 +307,8 @@
     "https://developers.home.google.com/mcp/home",
     "https://9to5google.com/2026/09/16/google-home-mcp/"
    ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)",
    "access": "설치 없음 — 원격 MCP 서버(Home Premium Advanced 구독)"
   },
   {
@@ -301,7 +329,9 @@
    "env": "",
    "official_sources": [
     "https://raw.githubusercontent.com/sourabhbgp/hn-watch/HEAD/README.md"
-   ]
+   ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
   },
   {
    "key": "ledge-sh",
@@ -323,6 +353,8 @@
     "https://raw.githubusercontent.com/ledgesh/ledge/HEAD/README.md",
     "https://ledge.sh/"
    ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)",
    "access": "공식 사이트 설치 파일(macOS·Linux·Windows·모바일)"
   },
   {
@@ -346,6 +378,8 @@
     "https://hn.nuxt.dev/item/49869574",
     "https://news.ycombinator.com/item?id=49869574"
    ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (3/3단계 성공)",
    "access": "설치 없음 — 브라우저에서 바로"
   },
   {
@@ -368,7 +402,9 @@
     "https://github.com/MCPJam",
     "https://docs.mcpjam.com/getting-started",
     "https://docs.mcpjam.com/"
-   ]
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (6/8단계 성공)"
   },
   {
    "key": "nvidia-personal-ai-router",
@@ -389,6 +425,8 @@
    "official_sources": [
     "https://raw.githubusercontent.com/NVIDIA/Personal-AI-Router/HEAD/README.md"
    ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)",
    "access": "릴리스 페이지 설치 파일(exe·deb·dmg)"
   },
   {
@@ -409,7 +447,9 @@
    "env": "",
    "official_sources": [
     "https://raw.githubusercontent.com/kitamura-felipe/omnibin/HEAD/README.md"
-   ]
+   ],
+   "verify": "partial",
+   "verify_note": "샌드박스 일부 실행 (2/7단계) + 공식 문서"
   },
   {
    "key": "apple-pass-designer",
@@ -431,6 +471,8 @@
     "https://upstract.com/x/d3612daec711cd60",
     "https://www.walletwallet.dev/blog/apple-pass-designer/"
    ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)",
    "access": "Apple Developer 사이트에서 내려받기(macOS 27+)"
   },
   {
@@ -454,7 +496,56 @@
     "https://upstract.com/x/7802e11906b4cd33",
     "https://runtimewire.com/article/pirate-face-bittorrent-tracker-open-ai-models"
    ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (3/5단계 성공)",
    "access": "설치 없음 — 브라우저에서 바로"
+  },
+  {
+   "key": "ps2-web-recomp",
+   "name": "PS2 Web Recomp",
+   "one_liner": "PS2 게임을 WebAssembly로 정적 리컴파일해 브라우저에서 실행하는 도구",
+   "install": "git clone https://github.com/snuri00/ps2-web-recomp",
+   "category": "dev",
+   "homepage": "https://github.com/snuri00/ps2-web-recomp",
+   "repo": "snuri00/ps2-web-recomp",
+   "license": "MIT",
+   "stars": 429,
+   "lang": "C++",
+   "post_url": "https://review.kimwon.com/ps2-web-recomp-%eb%b8%8c%eb%9d%bc%ec%9a%b0%ec%a0%80-%ea%b2%8c%ec%9e%84/",
+   "post_title": "PS2 Web Recomp: 에뮬레이터 없이 브라우저에서 PS2 게임 돌리기",
+   "done_link": "https://review.kimwon.com/?p=339",
+   "post_date": "2026-10-13",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/snuri00/ps2-web-recomp/HEAD/README.md"
+   ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
+  },
+  {
+   "key": "quake-srp",
+   "name": "Quake-SRP",
+   "one_liner": "1996년작 Quake를 safe Rust로 포팅해 브라우저에서 돌리는 엔진",
+   "install": "",
+   "category": "web",
+   "homepage": "https://github.com/terrapapagalli1516/quake-srp",
+   "repo": "terrapapagalli1516/quake-srp",
+   "license": "GPL-2.0",
+   "stars": 69,
+   "lang": "Rust",
+   "post_url": "https://review.kimwon.com/quake-srp-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "Quake-SRP 사용법: 브라우저에서 도는 러스트판 퀘이크, 설치부터 소스 검증까지",
+   "done_link": "https://review.kimwon.com/?p=324",
+   "post_date": "2026-10-10",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://zeli.app/story/50016312",
+    "https://news.lavx.hu/article/quake-srp-brings-the-original-quake-to-the-browser-with-drag-and-drop-pak-support",
+    "https://officeoutlaw.com/threads/quake-srp.4993/"
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (4/5단계 성공)",
+   "access": "설치 없음 — 브라우저 플레이 페이지(quake-srp.pages.dev), 소스는 git clone"
   },
   {
    "key": "vercel-labs-skills",
@@ -476,7 +567,9 @@
     "https://raw.githubusercontent.com/vercel-labs/skills/HEAD/README.md",
     "https://www.skills.sh/docs",
     "https://www.skills.sh/vercel-labs/skills/find-skills"
-   ]
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (8/8단계 성공)"
   },
   {
    "key": "symvacas",
@@ -496,7 +589,9 @@
    "env": "",
    "official_sources": [
     "https://raw.githubusercontent.com/kirinonakar/symvacas/HEAD/README.md"
-   ]
+   ],
+   "verify": "partial",
+   "verify_note": "샌드박스 일부 실행 (5/7단계) + 공식 문서"
   },
   {
    "key": "tcl-tk-9-1",
@@ -518,7 +613,9 @@
     "https://www.tcl-lang.org/software/tcltk/9.1.html",
     "https://news.ycombinator.com/item?id=49896712",
     "https://hn.watch/?item=49896712"
-   ]
+   ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
   },
   {
    "key": "trynix-preview",
@@ -539,6 +636,8 @@
    "official_sources": [
     "https://github.com/marketplace/actions/trynix-preview"
    ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (4/5단계 성공)",
    "access": "설치 없음 — 브라우저에서 바로"
   },
   {
@@ -559,7 +658,9 @@
    "env": "Debian 12",
    "official_sources": [
     "https://raw.githubusercontent.com/theclaymethod/unslop/HEAD/README.md"
-   ]
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (8/8단계 성공)"
   }
  ]
 }
