@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T14:49:03.554974+09:00",
+ "generated": "2026-10-19T10:00:33.788379+09:00",
  "source": "https://review.kimwon.com",
- "count": 28,
+ "count": 32,
  "tools": [
   {
    "key": "a-walkable-history-of-art",
@@ -72,6 +72,30 @@
    "verify": "run",
    "verify_note": "Debian 12 샌드박스에서 설치·실행 (3/3단계 성공)",
    "access": "설치 없음 — 브라우저에서 바로"
+  },
+  {
+   "key": "blumify",
+   "name": "Blumify for Claude",
+   "one_liner": "유튜브·팟캐스트 링크를 스크립트와 요약으로 바꿔 주는 Claude 플러그인",
+   "install": "/plugin install blumify@blumify",
+   "category": "ai",
+   "homepage": "https://blumify.io/developers#mcp",
+   "repo": "Sketchjar/blumify-claude-plugin",
+   "license": "MIT",
+   "stars": 0,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/blumify-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "Blumify 사용법: Claude용 유튜브·팟캐스트 요약 플러그인, 설치부터 질문까지",
+   "done_link": "https://review.kimwon.com/?p=351",
+   "post_date": "2026-10-15",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://raw.githubusercontent.com/Sketchjar/blumify-claude-plugin/HEAD/README.md",
+    "https://blumify.io/",
+    "https://blumify.io/how-it-works"
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (4/5단계 성공)"
   },
   {
    "key": "book-of-shapes",
@@ -240,6 +264,28 @@
    "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
   },
   {
+   "key": "european-alternatives",
+   "name": "FOSS Alternatives",
+   "one_liner": "유료 소프트웨어를 대신할 오픈소스 도구 600여 개를 모은 디렉터리",
+   "install": "",
+   "category": "web",
+   "homepage": "https://beko2210.github.io/european-alternatives.eu-free-open-source/",
+   "repo": "BEKO2210/european-alternatives.eu-free-open-source",
+   "license": "MIT",
+   "stars": 61,
+   "lang": "TypeScript",
+   "post_url": "https://review.kimwon.com/european-alternatives-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "European Alternatives 사용법: 오픈소스 대체 앱 사전, 설치부터 빌드까지",
+   "done_link": "https://review.kimwon.com/?p=356",
+   "post_date": "2026-10-15",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://raw.githubusercontent.com/BEKO2210/european-alternatives.eu-free-open-source/HEAD/README.md"
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (6/7단계 성공)"
+  },
+  {
    "key": "gemini-3-8-flash-tts",
    "name": "Gemini 3.8 Flash TTS",
    "one_liner": "프롬프트로 목소리를 설계하고 연기를 지시하는 구글 TTS 모델",
@@ -358,6 +404,29 @@
    "access": "공식 사이트 설치 파일(macOS·Linux·Windows·모바일)"
   },
   {
+   "key": "llmspeed",
+   "name": "llmspeed",
+   "one_liner": "하드웨어 구매 전 로컬 LLM 답변 속도를 체험하는 웹 시뮬레이터",
+   "install": "npm install",
+   "category": "ai",
+   "homepage": "https://llmspeed.dev",
+   "repo": "albinstman/llmspeed",
+   "license": "MIT",
+   "stars": 107,
+   "lang": "TypeScript",
+   "post_url": "https://review.kimwon.com/llmspeed-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "llmspeed 사용법: GPU 사기 전 로컬 LLM 속도 체험, 설치부터 빌드까지",
+   "done_link": "https://review.kimwon.com/?p=373",
+   "post_date": "2026-10-18",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://raw.githubusercontent.com/albinstman/llmspeed/HEAD/README.md",
+    "https://llmspeed.dev/"
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (6/7단계 성공)"
+  },
+  {
    "key": "lofi-cities",
    "name": "Lofi Cities",
    "one_liner": "픽셀아트 도시 야경과 실시간 합성 로파이 음악을 트는 무료 웹 앱",
@@ -405,6 +474,30 @@
    ],
    "verify": "run",
    "verify_note": "Debian 12 샌드박스에서 설치·실행 (6/8단계 성공)"
+  },
+  {
+   "key": "nanolathe",
+   "name": "Nanolathe",
+   "one_liner": "Total Annihilation 원본 데이터를 읽어 실행하는 Go 기반 오픈소스 RTS 엔진",
+   "install": "",
+   "category": "etc",
+   "homepage": "https://nanolathe.gg/",
+   "repo": "nanolathe-gg/nanolathe",
+   "license": "MIT",
+   "stars": 222,
+   "lang": "Go",
+   "post_url": "https://review.kimwon.com/nanolathe-%ed%86%a0%ed%83%88%ec%96%b4%eb%82%98%ec%9d%b4%ec%96%bc%eb%a0%88%ec%9d%b4%ec%85%98-%ec%97%94%ec%a7%84/",
+   "post_title": "Nanolathe 살펴보기: 토탈 어나이얼레이션을 되살린 오픈소스 RTS 엔진",
+   "done_link": "https://review.kimwon.com/?p=345",
+   "post_date": "2026-10-14",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/nanolathe-gg/nanolathe/HEAD/README.md",
+    "https://nanolathe.gg/",
+    "https://nanolathe.gg/about/"
+   ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
   },
   {
    "key": "nvidia-personal-ai-router",
