@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-19T10:00:33.788379+09:00",
+ "generated": "2026-10-26T10:00:25.376530+09:00",
  "source": "https://review.kimwon.com",
- "count": 32,
+ "count": 38,
  "tools": [
   {
    "key": "a-walkable-history-of-art",
@@ -47,6 +47,29 @@
    ],
    "verify": "run",
    "verify_note": "Debian 12 샌드박스에서 설치·실행 (7/8단계 성공)"
+  },
+  {
+   "key": "ai-job-search",
+   "name": "ai-job-search",
+   "one_liner": "The job search that runs on your machine. AI job application",
+   "install": "",
+   "category": "etc",
+   "homepage": "https://github.com/MadsLorentzen/ai-job-search",
+   "repo": "MadsLorentzen/ai-job-search",
+   "license": "MIT",
+   "stars": 65717,
+   "lang": "Python",
+   "post_url": "https://review.kimwon.com/ai-job-search-%ea%b5%ac%ec%a7%81-%ec%9e%90%eb%8f%99%ed%99%94/",
+   "post_title": "AI Job Search: 클로드 코드로 돌리는 구직 자동화 도구",
+   "done_link": "https://review.kimwon.com/?p=376",
+   "post_date": "2026-10-19",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/HEAD/README.md",
+    "https://www.linkedin.com/pulse/how-i-built-ai-job-search-system-using-claude-sanjana-r-pmp-cspo--eoxtc/"
+   ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
   },
   {
    "key": "bastardica",
@@ -216,6 +239,28 @@
    ],
    "verify": "run",
    "verify_note": "Debian 12 샌드박스에서 설치·실행 (6/8단계 성공)"
+  },
+  {
+   "key": "corgi",
+   "name": "Corgi",
+   "one_liner": "CORGI",
+   "install": "",
+   "category": "etc",
+   "homepage": "https://gitpod.io/#https://github.com/openstax/corgi",
+   "repo": "openstax/corgi",
+   "license": "MIT",
+   "stars": 1,
+   "lang": "Python",
+   "post_url": "https://review.kimwon.com/corgi-%ec%b1%85%eb%b9%8c%eb%93%9c-%eb%8c%80%ec%8b%9c%eb%b3%b4%eb%93%9c/",
+   "post_title": "CORGI 살펴보기: OpenStax의 책 빌드 작업 대시보드",
+   "done_link": "https://review.kimwon.com/?p=404",
+   "post_date": "2026-10-25",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/openstax/corgi/HEAD/README.md"
+   ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
   },
   {
    "key": "dbt-charts",
@@ -452,6 +497,28 @@
    "access": "설치 없음 — 브라우저에서 바로"
   },
   {
+   "key": "markpin",
+   "name": "Markpin",
+   "one_liner": "MarkPin을 안전 설치로 받아 로컬에서 띄우고 빌드하는 법, ChatGPT 대화를 노트 하나로 모으는 법",
+   "install": "",
+   "category": "etc",
+   "homepage": "https://github.com/J-Yoharu/markpin",
+   "repo": "J-Yoharu/markpin",
+   "license": "MIT",
+   "stars": 0,
+   "lang": "TypeScript",
+   "post_url": "https://review.kimwon.com/markpin-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "MarkPin 사용법: 브라우저에 저장하는 마크다운 메모 앱, 설치부터 빌드까지",
+   "done_link": "https://review.kimwon.com/?p=385",
+   "post_date": "2026-10-21",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://raw.githubusercontent.com/J-Yoharu/markpin/HEAD/README.md"
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (7/8단계 성공)"
+  },
+  {
    "key": "mcpjam",
    "name": "MCPJam",
    "one_liner": "MCP 서버·앱을 채팅하며 검사·디버깅하는 테스트 도구",
@@ -616,6 +683,30 @@
    "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
   },
   {
+   "key": "pwn-watch",
+   "name": "pwn.watch",
+   "one_liner": "pwn.watch로 지금 터진 보안 사고와 패치 여부를 한 페이지에서 보고, 내가 쓰는 소프트웨어 버전을 점",
+   "install": "",
+   "category": "etc",
+   "homepage": "",
+   "repo": null,
+   "license": "",
+   "stars": null,
+   "lang": "",
+   "post_url": "https://review.kimwon.com/pwnwatch-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "pwn.watch 사용법: 보안 사고·패치 현황 추적 사이트, 접속부터 버전 점검까지",
+   "done_link": "https://review.kimwon.com/?p=401",
+   "post_date": "2026-10-24",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://pwn.watch/past",
+    "https://www.blocktempo.com/pwn-watch-security-incident-tracker-kitze-ai-brief-patch-status/",
+    "https://pwn.watch/"
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (3/3단계 성공)"
+  },
+  {
    "key": "quake-srp",
    "name": "Quake-SRP",
    "one_liner": "1996년작 Quake를 safe Rust로 포팅해 브라우저에서 돌리는 엔진",
@@ -639,6 +730,30 @@
    "verify": "run",
    "verify_note": "Debian 12 샌드박스에서 설치·실행 (4/5단계 성공)",
    "access": "설치 없음 — 브라우저 플레이 페이지(quake-srp.pages.dev), 소스는 git clone"
+  },
+  {
+   "key": "qwen3-4b-deslop",
+   "name": "qwen3-4b-deslop",
+   "one_liner": "Qwen3 is the large language model series developed by Qwen t",
+   "install": "",
+   "category": "etc",
+   "homepage": "https://github.com/QwenLM/Qwen3",
+   "repo": "QwenLM/Qwen3",
+   "license": "",
+   "stars": 27682,
+   "lang": "Python",
+   "post_url": "https://review.kimwon.com/qwen3-4b-deslop-ai%eb%a7%90%ed%88%ac-%ec%a4%84%ec%9d%b4%ea%b8%b0/",
+   "post_title": "qwen3-4b-deslop 살펴보기: AI 말투를 덜어내는 Qwen3 어댑터",
+   "done_link": "https://review.kimwon.com/?p=379",
+   "post_date": "2026-10-20",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/QwenLM/Qwen3/HEAD/README.md",
+    "https://qwen.readthedocs.io/en/latest/getting_started/quickstart.html",
+    "https://huggingface.co/erikkannike/qwen3-4b-deslop"
+   ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
   },
   {
    "key": "vercel-labs-skills",
@@ -754,6 +869,28 @@
    ],
    "verify": "run",
    "verify_note": "Debian 12 샌드박스에서 설치·실행 (8/8단계 성공)"
+  },
+  {
+   "key": "zzo",
+   "name": "ZZO",
+   "one_liner": "Make a blog with hugo zzo theme!",
+   "install": "sudo apt-get install -y hugo",
+   "category": "etc",
+   "homepage": "https://themes.gohugo.io//theme/hugo-theme-zzo/en/",
+   "repo": "zzossig/hugo-theme-zzo",
+   "license": "MIT",
+   "stars": 738,
+   "lang": "SCSS",
+   "post_url": "https://review.kimwon.com/zzo-%ed%9c%b4%ea%b3%a0%ed%85%8c%eb%a7%88-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+   "post_title": "Zzo 사용법: 휴고 블로그 테마, 설치부터 첫 빌드까지",
+   "done_link": "https://review.kimwon.com/?p=396",
+   "post_date": "2026-10-23",
+   "env": "Debian 12",
+   "official_sources": [
+    "https://raw.githubusercontent.com/zzossig/hugo-theme-zzo/HEAD/README.md"
+   ],
+   "verify": "run",
+   "verify_note": "Debian 12 샌드박스에서 설치·실행 (6/8단계 성공)"
   }
  ]
 }
