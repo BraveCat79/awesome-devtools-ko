@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-02T10:00:26.710641+09:00",
+ "generated": "2026-11-09T10:00:12.775942+09:00",
  "source": "https://review.kimwon.com",
- "count": 43,
+ "count": 44,
  "tools": [
   {
    "key": "a-walkable-history-of-art",
@@ -67,6 +67,30 @@
    "official_sources": [
     "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/HEAD/README.md",
     "https://www.linkedin.com/pulse/how-i-built-ai-job-search-system-using-claude-sanjana-r-pmp-cspo--eoxtc/"
+   ],
+   "verify": "docs",
+   "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"
+  },
+  {
+   "key": "archiveweb-page",
+   "name": "ArchiveWeb.page",
+   "one_liner": "브라우저에서 보는 페이지를 그대로 기록하는 웹 아카이빙 확장",
+   "install": "",
+   "category": "web",
+   "homepage": "https://chrome.google.com/webstore/detail/webrecorder/fpeoodllldobpkbkabpblcfaogecpndd",
+   "repo": "webrecorder/archiveweb.page",
+   "license": "AGPL-3.0",
+   "stars": 1626,
+   "lang": "TypeScript",
+   "post_url": "https://review.kimwon.com/archivewebpage-%ec%9b%b9%ed%8e%98%ec%9d%b4%ec%a7%80-%eb%b3%b4%ea%b4%80/",
+   "post_title": "ArchiveWeb.page 살펴보기: 보는 그대로 웹페이지를 보관하는 도구",
+   "done_link": "https://review.kimwon.com/?p=450",
+   "post_date": "2026-11-03",
+   "env": "",
+   "official_sources": [
+    "https://raw.githubusercontent.com/webrecorder/archiveweb.page/HEAD/README.md",
+    "https://archiveweb.page/en/usage/",
+    "https://archiveweb.page/"
    ],
    "verify": "docs",
    "verify_note": "공식 문서·발표 확인 (직접 실행 안 함)"

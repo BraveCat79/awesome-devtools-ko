@@ -4,7 +4,7 @@
 
 Debian 12 LXC 샌드박스에서 설치·실행해 본 기록을 바탕으로 만든 표입니다. 각 행의 **확인** 칸에 실제로 실행했는지, 문서로만 확인했는지를 적었습니다. **공식 자료** 칸은 도구의 공식 사이트·GitHub, **심화 글**은 설치 과정·첫 화면·실제 출력을 적은 사용기입니다. 기계 판독용 데이터는 [`data/tools.json`](data/tools.json).
 
-갱신 2026-11-02 · 도구 43개(✅ 실행 20 · ◐ 일부 실행 8 · 📄 문서 확인 15) · 라이선스 [CC BY 4.0](LICENSE)
+갱신 2026-11-09 · 도구 44개(✅ 실행 20 · ◐ 일부 실행 8 · 📄 문서 확인 16) · 라이선스 [CC BY 4.0](LICENSE)
 
 ## 선정 기준·확인 방법
 
@@ -21,6 +21,7 @@ Debian 12 LXC 샌드박스에서 설치·실행해 본 기록을 바탕으로 �
 | [A Walkable History of Art](https://artmuseum.artfrompixels.com/) | 미술사 연표에서 화가를 골라 3D 가상 갤러리로 들어가는 웹사이트 | 설치 없음 — 브라우저에서 바로 | 해당 없음(웹 서비스) | ◐ 일부 실행 | [공식](https://artmuseum.artfrompixels.com/) | [A Walkable History of Art: 3D 미술사 갤러리, 누구에게 맞나](https://review.kimwon.com/a-walkable-history-of-art-%eb%af%b8%ec%88%a0%ec%82%ac/) |
 | [agent-gc](https://github.com/williamjeong2/agent-gc) | AI 코딩 에이전트가 남긴 worktree와 빌드 산출물을 정리하는 Rust TUI | `npm install -g agent-gc` | MIT | ✅ 실행 | [GitHub](https://github.com/williamjeong2/agent-gc) | [agent-gc 사용법, AI 에이전트가 남긴 용량 되찾기](https://review.kimwon.com/agent-gc-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 | [ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | The job search that runs on your machine. AI job application | — | MIT | 📄 문서 확인 | [GitHub](https://github.com/MadsLorentzen/ai-job-search) | [AI Job Search: 클로드 코드로 돌리는 구직 자동화 도구](https://review.kimwon.com/ai-job-search-%ea%b5%ac%ec%a7%81-%ec%9e%90%eb%8f%99%ed%99%94/) |
+| [ArchiveWeb.page](https://chrome.google.com/webstore/detail/webrecorder/fpeoodllldobpkbkabpblcfaogecpndd) | 브라우저에서 보는 페이지를 그대로 기록하는 웹 아카이빙 확장 | — | AGPL-3.0 | 📄 문서 확인 | [공식](https://chrome.google.com/webstore/detail/webrecorder/fpeoodllldobpkbkabpblcfaogecpndd) · [GitHub](https://github.com/webrecorder/archiveweb.page) | [ArchiveWeb.page 살펴보기: 보는 그대로 웹페이지를 보관하는 도구](https://review.kimwon.com/archivewebpage-%ec%9b%b9%ed%8e%98%ec%9d%b4%ec%a7%80-%eb%b3%b4%ea%b4%80/) |
 | [Bastardica](https://bastardica.mitpit.com/) | 브라우저에서 글꼴 두 개를 섞어 새 폰트 파일을 만드는 웹 도구 | 설치 없음 — 브라우저에서 바로 | 해당 없음(웹 서비스) | ✅ 실행 | [공식](https://bastardica.mitpit.com/) | [Bastardica 사용법, 글꼴 두 개를 섞어 새 폰트로](https://review.kimwon.com/bastardica-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 | [Blumify for Claude](https://blumify.io/developers#mcp) | 유튜브·팟캐스트 링크를 스크립트와 요약으로 바꿔 주는 Claude 플러그인 | `/plugin install blumify@blumify` | MIT | ✅ 실행 | [공식](https://blumify.io/developers#mcp) · [GitHub](https://github.com/Sketchjar/blumify-claude-plugin) | [Blumify 사용법: Claude용 유튜브·팟캐스트 요약 플러그인, 설치부터 질문까지](https://review.kimwon.com/blumify-%ec%82%ac%ec%9a%a9%eb%b2%95/) |
 | [Book of Shapes](https://bookofshapes.com/) | 값을 조절해 SVG로 내려받는 생성형 패턴 모음 웹 사이트 | 설치 없음 — 브라우저에서 바로 | 해당 없음(웹 서비스) | ◐ 일부 실행 | [공식](https://bookofshapes.com/) | [Book of Shapes, 무엇이고 누구에게 맞나](https://review.kimwon.com/bookofshapes-svg-%ed%8c%a8%ed%84%b4/) |
@@ -150,6 +151,8 @@ Debian 12 LXC 샌드박스에서 설치·실행해 본 기록을 바탕으로 �
 - **A Walkable History of Art** — 미술사 연표에서 화가를 골라 3D 가상 갤러리로 들어가는 웹사이트  
   설치 없음 — 브라우저에서 바로  
   심화 글: [A Walkable History of Art: 3D 미술사 갤러리, 누구에게 맞나](https://review.kimwon.com/a-walkable-history-of-art-%eb%af%b8%ec%88%a0%ec%82%ac/) · 2026-10-09
+- **ArchiveWeb.page** — 브라우저에서 보는 페이지를 그대로 기록하는 웹 아카이빙 확장 (TypeScript · ★ 1,626 · [GitHub](https://github.com/webrecorder/archiveweb.page))  
+  심화 글: [ArchiveWeb.page 살펴보기: 보는 그대로 웹페이지를 보관하는 도구](https://review.kimwon.com/archivewebpage-%ec%9b%b9%ed%8e%98%ec%9d%b4%ec%a7%80-%eb%b3%b4%ea%b4%80/) · 2026-11-03
 - **Bastardica** — 브라우저에서 글꼴 두 개를 섞어 새 폰트 파일을 만드는 웹 도구  
   설치 없음 — 브라우저에서 바로  
   심화 글: [Bastardica 사용법, 글꼴 두 개를 섞어 새 폰트로](https://review.kimwon.com/bastardica-%ec%82%ac%ec%9a%a9%eb%b2%95/) · 2026-09-25
